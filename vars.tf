@@ -5,7 +5,7 @@
 
 
 variable "resource_tags" {
-  description = "Map of tags to be applied to all resources created as part of this module"
+  description = "Map of tags to be applied to all Test resources created as part of this module"
   type        = map(string)
   default     = {}
 }
